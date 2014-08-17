@@ -15,7 +15,7 @@
                     <section class="col-full productindex">
 					<div class="wrap-col">
 						<div class="wrapper pad_bot2">
-							<h3><span class="dropcap">P</span>PALeyeD</h3>
+							<h3><span class="dropcap">P</span><span class="text">PALeyeD</span></h3>
 							<%--<figure><img src="images/CaughtCoding.jpg" alt=""></figure>--%>
 							<p class="pad_bot1">PAL Symbol recognition and search...</p>
 							<div style="text-align:right"><a href="PALEyeD.aspx" class="link1">Read More</a></div>
@@ -25,7 +25,7 @@
                     <section class="col-full productindex">
 					<div class="wrap-col">
 						<div class="wrapper pad_bot2">
-							<h3><span class="dropcap">B</span>Blue2UV</h3>
+							<h3><span class="dropcap">B</span><span class="text">Blue2UV</span></h3>
 							<%--<figure><img src="images/CaughtCoding.jpg" alt=""></figure>--%>
 							<p class="pad_bot1">Blue Light and UV sensors ...</p>
 							<div style="text-align:right"><a href="Blue2UV.aspx" class="link1">Read More</a></div>
@@ -35,7 +35,7 @@
                     <section class="col-full productindex">
 					<div class="wrap-col">
 						<div class="wrapper pad_bot2">
-							<h3><span class="dropcap">O</span>OpticalEyeCoach</h3>
+							<h3><span class="dropcap">O</span><span class="text">OpticalEyeCoach</span></h3>
 							<%--<figure><img src="images/CaughtCoding.jpg" alt=""></figure>--%>
 							<p class="pad_bot1">Optician Tools Kit, Everthings ...</p>
 							<div style="text-align:right"><a href="OpticalCoatch.aspx" class="link1">Read More</a></div>
