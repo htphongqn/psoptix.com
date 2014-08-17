@@ -16,9 +16,9 @@
 					<div class="wrap-col">
 						<div class="wrapper pad_bot2">
 							<h3><span class="dropcap">P</span><span class="text">PALeyeD</span></h3>
-							<%--<figure><img src="images/CaughtCoding.jpg" alt=""></figure>--%>
-							<p class="pad_bot1">PAL Symbol recognition and search...</p>
-							<div style="text-align:right"><a href="PALEyeD.aspx" class="link1">Read More</a></div>
+							<figure><img src="images/no-image.png" alt="" style="float:left" width="250"></figure>
+							<p class="pad_bot1" style="float:left;padding-left:15px">PAL Symbol recognition and search...</p>
+							<div style="text-align:right;clear:both"><a href="PALEyeD.aspx" class="link1">Read More</a></div>
 						</div>
 					</div>
 					</section>
@@ -26,9 +26,9 @@
 					<div class="wrap-col">
 						<div class="wrapper pad_bot2">
 							<h3><span class="dropcap">B</span><span class="text">Blue2UV</span></h3>
-							<%--<figure><img src="images/CaughtCoding.jpg" alt=""></figure>--%>
-							<p class="pad_bot1">Blue Light and UV sensors ...</p>
-							<div style="text-align:right"><a href="Blue2UV.aspx" class="link1">Read More</a></div>
+							<figure><img src="images/blue_uv.jpg" alt="" style="float:left" /></figure>
+							<p class="pad_bot1" style="float:left;padding-left:15px">Blue Light and UV sensors ...</p>
+							<div style="text-align:right;clear:both"><a href="Blue2UV.aspx" class="link1">Read More</a></div>
 						</div>
 					</div>
 					</section>
@@ -36,9 +36,9 @@
 					<div class="wrap-col">
 						<div class="wrapper pad_bot2">
 							<h3><span class="dropcap">O</span><span class="text">OpticalEyeCoach</span></h3>
-							<%--<figure><img src="images/CaughtCoding.jpg" alt=""></figure>--%>
-							<p class="pad_bot1">Optician Tools Kit, Everthings ...</p>
-							<div style="text-align:right"><a href="OpticalCoatch.aspx" class="link1">Read More</a></div>
+							<figure><img src="images/no-image.png" alt="" style="float:left" width="250"></figure>
+							<p class="pad_bot1" style="float:left;padding-left:15px">Optician Tools Kit, Everthings ...</p>
+							<div style="text-align:right;clear:both"><a href="OpticalCoatch.aspx" class="link1">Read More</a></div>
 						</div>
 					</div>
 					</section>
