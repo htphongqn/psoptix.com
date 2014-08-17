@@ -6,7 +6,6 @@
 <head runat="server">
     <link id="Link1" runat="server" rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link id="Link2" runat="server" rel="icon" href="images/favicon.ico" type="image/ico" />
-    <title></title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />

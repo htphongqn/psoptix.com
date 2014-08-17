@@ -16,6 +16,10 @@
 	        $("#nav3").removeClass('active');
 	        $("#nav5").removeClass('active');
 	    });
+	    $(document).ready(function () {
+	        $('#menu li').removeClass('active');
+	        $('#menu #nav1').addClass('active');
+	    });
 	</script>
 	
     <style type="text/css">
