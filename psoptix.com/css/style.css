@@ -19,11 +19,14 @@ body{background:white;border:0;font:14px "Trebuchet MS", Arial, Helvetica, sans-
     background: -o-linear-gradient(top,#589b5b 0,#3d8958 100%);
     background: linear-gradient(top,#589b5b 0,#3d8958 100%);
     background: -ms-linear-gradient(top,#589b5b 0,#3d8958 100%);}
-.body2{/*background:url(../images/bg.png) 0 0 repeat*//*background:url(../images/bg_top1.gif) bottom repeat-x*/}
+.body2{background:url(../images/bg.png) 0 0 repeat/*background:url(../images/bg_top1.gif) bottom repeat-x*/}
 .body3{background:url(../images/bg.png) 0 0 repeat/*background:#fff*/}
 /*.body4{background:url(../images/bg.jpg) top center repeat}*/
 .body5{/*background:url(../images/bg_top_img2.jpg) center bottom no-repeat*/}
 .body4{background:#000;/*background:url(../images/fatfooter-bg.png) 0 -6px repeat-x;*//*background:url(../images/bg.jpg) top center repeat*/}
+.productindex {
+    background:#F5F5F5;border:1px solid #FFFFFF; -webkit-border-radius:5px;margin-bottom:5px;
+}
 .border1 {
     background-color:#3d6c34;
     clear:both;
