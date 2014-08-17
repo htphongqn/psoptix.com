@@ -1,5 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Blue2UV.aspx.cs" Inherits="psoptix.com.Blue2UV" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script>
+        $(function () {
+            $("#nav4").addClass('active');
+            $("#nav1").removeClass('active');
+            $("#nav3").removeClass('active');
+            $("#nav5").removeClass('active');
+        });
+	</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentMain" runat="server">
     <div class="body2">
