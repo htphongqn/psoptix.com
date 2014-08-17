@@ -67,11 +67,12 @@
 						</div>
 					</section>
 					<section class="col-1-3 productindex">
+                        <a href="Blue2UV.aspx">
 						<div class="wrap-col">
 							<h3><span class="dropcap">B</span><span class="text">Blue2UV</span></h3>
 							<p class="pad_bot1">Blue Light and UV sensors ...</p>
 							<a href="Blue2UV.aspx" class="link1">Read More</a>
-						</div>
+						</div></a>
 					</section>
 					<section class="col-1-3 productindex">
 						<div class="wrap-col">
