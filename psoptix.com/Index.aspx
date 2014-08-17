@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="psoptix.com.Index" %>
+﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="psoptix.com.Index" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="js/responsiveslides.js"></script>
 	<script>
@@ -44,9 +44,8 @@
 					  	<div class="rslides_container">
 							<ul class="rslides" id="slider">
 								<li><img src="images/information_technology2.jpg" alt=""></li>
-								<li><img src="images/image-1395050147-robot-1.jpg" alt=""></li>
+								<li><img src="images/shutterstock_122435878.jpg" alt=""></li>
 								<li><img src="images/slide-52.jpg" alt=""></li>
-								<!--<li><img src="images/img4.jpg" alt=""></li>-->
 							</ul>
 						</div>
 					</div>
