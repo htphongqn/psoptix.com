@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="psoptix.com.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link id="Link1" runat="server" rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link id="Link2" runat="server" rel="icon" href="images/favicon.ico" type="image/ico" />
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/layout.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/zerogrid.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/responsiveslides.css" />
+    <script type="text/javascript" src="js/jquery-1.6.js" ></script>
+    <script type="text/javascript" src="js/cufon-yui.js"></script>
+    <script type="text/javascript" src="js/cufon-replace.js"></script>
+    <script type="text/javascript" src="js/Swis721_Cn_BT_400.font.js"></script>
+    <script type="text/javascript" src="js/Swis721_Cn_BT_700.font.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/tms-0.3.js"></script>
+    <script type="text/javascript" src="js/tms_presets.js"></script>
+    <script type="text/javascript" src="js/jcarousellite.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/css3-mediaqueries.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmMain" runat="server">
+    <div class="body1">
+		<div class="main zerogrid">
+<!-- header -->
+			<header>
+				<div class="wrapper row">
+				<h1><a href="index.html" id="logo"><img src="images/PSLogoFinal.png" style="height:100px;" /></a></h1>
+				<nav>
+					<ul id="menu">
+						<li id="nav1" class="active"><a href="index.html">Home</a></li>
+						<li id="nav3"><a href="Services.html">ABOUT Us</a></li>
+						<li id="nav4"><a href="Products.html">Products</a></li>
+						<li id="nav5"><a href="Contacts.html">Contacts</a></li>
+					</ul>
+				</nav>
+				</div>
+			</header>
+<!-- header end-->
+		</div>
+    </div>
+    <div class="border1">
+        <div class="main zerogrid">
+            <div class="border2">
+            </div>
+        </div>
+    </div>
+    <div>
+    <asp:ContentPlaceHolder ID="ContentMain" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    </div>
+        <div class="body4">
+		<div class="main zerogrid">
+			<article id="content2">
+				<div class="wrapper row">
+					<section class="col-1-3">
+					    <div class="wrap-col">
+						    <h4>Why Us?</h4>
+						<ul class="list1">
+							<li><a href="#">Innovating for the future </a></li>
+							<li><a href="#">Passionate in our products</a></li>
+							<li><a href="#">Driven to succeed&nbsp; </a></li>
+							<li><a href="#">Daring to take a chance</a></li>
+						</ul>
+					</div>
+					</section>
+					<section class="col-1-3">
+					<div class="wrap-col">
+						<h4>Address</h4>
+						<ul class="address">
+							<li><span>Country:&nbsp;&nbsp; </span>610 S Industrial Blvd</li>
+							<li><span>City:</span>Euless, TX 76040 - USA</li>
+							<li><span>Phone:</span>972 822-9478</li>
+                            <li><span>Email:</span><a href="mailto:">info@perfectsqs.com</a></li>
+						</ul>
+					</div>
+					</section>
+					<section class="col-1-3">
+					<div class="wrap-col">
+						<h4>Newsletter</h4>
+						<div id="newsletter">
+							<div>
+								<div class="wrapper">
+									<input class="input" type="text" value="Type Your Email Here"  onblur="if(this.value=='') this.value='Type Your Email Here'" onfocus="if(this.value =='Type Your Email Here' ) this.value=''" >
+								</div>
+								<a href="#" class="button" onclick="document.getElementById('newsletter').submit()">Subscribe</a>
+							</div>
+						</div>
+					</div>
+					</section>
+				</div>
+			</article>
+<!-- content end -->
+		</div>
+	</div>
+    <script type="text/javascript"> Cufon.now(); </script>
+    </form>
+</body>
+</html>
