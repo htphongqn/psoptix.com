@@ -12,7 +12,7 @@
 		<div class="main zerogrid">
 <!-- content -->
 			<article id="content">
-				<div class="wrapper row">
+				<div class="wrapper row" style="margin-bottom:20px">
 					<section class="col-3-4">
 					<div class="wrap-col">
 						<h2 class="under">Contact form</h2>
