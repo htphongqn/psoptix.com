@@ -6,7 +6,6 @@
 <head runat="server">
     <link id="Link1" runat="server" rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link id="Link2" runat="server" rel="icon" href="images/favicon.ico" type="image/ico" />
-    <title></title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
@@ -40,7 +39,7 @@
 				<h1><a href="Index.aspx" id="logo"><img src="images/PSLogoFinal.png" style="height:100px;" /></a></h1>
 				<nav>
 					<ul id="menu">
-						<li id="nav1" class="active"><a href="Index.aspx">Home</a></li>
+						<li id="nav1"><a href="Index.aspx">Home</a></li>
 						<li id="nav3"><a href="AboutUs.aspx">ABOUT Us</a></li>
 						<li id="nav4"><a href="Products.aspx">Products</a></li>
 						<li id="nav5"><a href="Contacts.aspx">Contacts</a></li>

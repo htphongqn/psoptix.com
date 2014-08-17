@@ -12,6 +12,10 @@
 	            namespace: "centered-btns"
 	        });
 	    });
+	    $(document).ready(function () {
+	        $('#menu li').removeClass('active');
+	        $('#menu #nav1').addClass('active');
+	    });
 	</script>
 	
     <style type="text/css">

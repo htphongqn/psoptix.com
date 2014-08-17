@@ -1,5 +1,11 @@
 ﻿<%@ Page Title="Contacts" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contacts.aspx.cs" Inherits="psoptix.com.Contacts" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">    
+    <script>
+        $(document).ready(function () {
+            $('#menu li').removeClass('active');
+            $('#menu #nav5').addClass('active');
+        });
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentMain" runat="server">
     <div class="body3">
@@ -10,7 +16,7 @@
 					<section class="col-3-4">
 					<div class="wrap-col">
 						<h2 class="under">Contact form</h2>
-						<form id="ContactForm" method="post">
+						<div id="ContactForm">
 						<div>
 							<div  class="wrapper">
 								<span>Your Name:</span>
@@ -31,20 +37,20 @@
 							<a href="#" onClick="document.getElementById('ContactForm').submit()">Send</a>
 							<a href="#" onClick="document.getElementById('ContactForm').reset()">Clear</a>
 						</div>
-						</form>
+						</div>
 					</div>
 					</section>
 					<section class="col-1-4">
 					<div class="wrap-col">
-						<h2 class="under">Contacts</h2>
+						<%--<h2 class="under">Contacts</h2>
 						<div id="address"><span>Country:<br>
 								City:<br>
 								Telephone:<br>
 								Email:</span>
-								USA<br>
-								San Diego<br>
-								+354 5635600<br>
-								<a href="mailto:" class="color2">elenwhite@mail.com</a></div>
+								610 S Industrial Blvd<br>
+								Euless, TX 76040 - USA<br>
+								972 822-9478<br>
+								<a href="mailto:info@perfectsqs.com" class="color2">info@perfectsqs.com</a></div>--%>
 						<h2 class="under">Miscellaneous</h2>
 						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium volupta- tum deleniti atque corrupti quos dolores et quas molestias excep- turi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.</p>
 					</div>
