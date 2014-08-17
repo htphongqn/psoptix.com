@@ -1,0 +1,10 @@
+E:\PFO\psoptix.com\psoptix.com\psoptix.com\bin\psoptix.com.dll
+E:\PFO\psoptix.com\psoptix.com\psoptix.com\bin\psoptix.com.pdb
+E:\PFO\psoptix.com\psoptix.com\psoptix.com\obj\Debug\psoptix.com.csprojResolveAssemblyReference.cache
+E:\PFO\psoptix.com\psoptix.com\psoptix.com\obj\Debug\psoptix.com.dll
+E:\PFO\psoptix.com\psoptix.com\psoptix.com\obj\Debug\psoptix.com.pdb
+E:\PFO\psoptix.com\psoptix.com\bin\psoptix.com.dll
+E:\PFO\psoptix.com\psoptix.com\bin\psoptix.com.pdb
+E:\PFO\psoptix.com\psoptix.com\obj\Debug\psoptix.com.csprojResolveAssemblyReference.cache
+E:\PFO\psoptix.com\psoptix.com\obj\Debug\psoptix.com.dll
+E:\PFO\psoptix.com\psoptix.com\obj\Debug\psoptix.com.pdb
