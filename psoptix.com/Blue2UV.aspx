@@ -10,9 +10,9 @@
 	</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentMain" runat="server">
-    <div class="body2">
+    <div class="body3">
         <div class="main zerogrid">
-            <div style="text-align:center;" align="center">
+            <div style="text-align:center;padding-top:15px" align="center">
                 <img src="images/Blue2UV2.png" />
             </div>
             <h2 class="under">
@@ -99,10 +99,10 @@
             <h2 class="under">
                 Demo Photos
             </h2>
-            <article><div style="text-align:center;">
+            <article><div style="text-align:center">
                 <img src="images/Blue2UV-1.png" height="100" /></div>
                 <h3>IPAD UI</h3>
-                <div align="center">
+                <div align="center" style="padding-bottom:25px">
                 <img src="images/Blue2UV-3.png" />
                 <img src="images/Blue2UV-2.png" /></div>
             </article>
