@@ -42,7 +42,7 @@ body{background:white;border:0;font:14px "Trebuchet MS", Arial, Helvetica, sans-
 a{color:#696969;text-decoration:underline;outline:none}
 a:hover{text-decoration:none}
 h1{float:left}
-h2{font-size:40px;font-style:normal;font-weight:400;line-height:1.2em;padding:38px 0 11px 0;color:#000;letter-spacing:-1px}
+h2{font-size:40px;font-style:normal;font-weight:400;line-height:1.2em;padding:28px 0 11px 0;color:#000;letter-spacing:-1px}
 h2.under{border-bottom:1px solid #e5e5e5;margin-bottom:25px}
 h3{font-size:26px;color:#000;line-height:1.2em;letter-spacing:-0px;padding-bottom:25px;font-weight:400;font-style:normal;margin-top:15px}
 h3 span{display:block;margin-top:-7px}
@@ -61,7 +61,7 @@ p{padding-bottom:22px}
 /* ============================= header ====================== */
 header{padding-top:0px; min-height: 120px;background:url(../images/bg_top.png) no-repeat}
 #logo{display:block; padding-top:10px;padding-left: 20px;}
-#menu {float:right;padding-top:20px;margin-right:25px}
+#menu {float:right;padding-top:30px;margin-right:25px}
 #menu li {float:left;padding-left:51px}
 #menu li a{display:block;font:20px "Trebuchet MS", Arial, Helvetica, sans-serif;line-height:1.2em;color:white;text-transform:uppercase;text-decoration:none;text-align:center;letter-spacing:-1px;height:44px;font-style:normal;font-weight:700;padding-top:35px}
 #menu li a span{font-size:13px;line-height:1.2em;color:#666666;display:block;letter-spacing:-1px;margin-top:-3px;font-weight:normal}
