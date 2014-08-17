@@ -42,7 +42,7 @@ body{background:white;border:0;font:14px "Trebuchet MS", Arial, Helvetica, sans-
 a{color:#696969;text-decoration:underline;outline:none}
 a:hover{text-decoration:none}
 h1{float:left}
-h2{font-size:40px;font-style:normal;font-weight:400;line-height:1.2em;padding:38px 0 11px 0;color:#000;letter-spacing:-1px}
+h2{font-size:40px;font-style:normal;font-weight:400;line-height:1.2em;color:#000;letter-spacing:-1px}
 h2.under{border-bottom:1px solid #e5e5e5;margin-bottom:25px}
 h3{font-size:26px;color:#000;line-height:1.2em;letter-spacing:-0px;padding-bottom:25px;font-weight:400;font-style:normal;margin-top:15px}
 h3 span{display:block;margin-top:-7px}
@@ -79,7 +79,7 @@ header{padding-top:0px; min-height: 120px;background:url(../images/bg_top.png) n
 #menu #nav5 a:hover, #menu #nav5.active a{background:url(../images/menu_icon5_active.gif) top center no-repeat}
 .slider{margin-top: 0px; height:423px;}
 /* ============================= content ====================== */
-#content{padding-top:35px;padding-bottom:36px}
+#content{padding-top:25px;padding-bottom:36px}
 #content2{padding-bottom:20px}
 .pad_left1{padding-left:50px}
 .pad_left2{padding-left:40px}
@@ -144,7 +144,8 @@ footer a:hover{}
 #newsletter a{float:right;width:90px;height:32px;background:#f99b1f;line-height:32px;color:#fff;font-weight:bold;text-align:center;font-style:normal;text-decoration:none}
 #newsletter a:hover{background:#696969;color:#fff}
 #newsletter .button{float : left;}
-
+#AboutUS {
+}
 .list {
     list-style-image:url(../images/list-style.png);
     list-style-position:hanging;

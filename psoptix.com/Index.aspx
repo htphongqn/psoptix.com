@@ -92,7 +92,7 @@
 				<div class="wrapper row">
 					<section class="col-3-4">
 						<div class="wrap-col">
-							<h2 class="under" style="font-size: xx-large; height: 34px; width: 630px;">Welcome, dear visitor!</h2>
+							<h2 class="under" style="margin-top:25px;">Welcome, dear visitor!</h2>
 							<div class="wrapper">
 								<figure class="left marg_right1"><img src="images/page1_img1.jpg" alt=""></figure>
 								<p class="auto-style3">Welcome to Perfect Squares Optix, We are a group of passionate professionals who is constantly looking&nbsp; to create innovative products that will make everyday life simple.</p>
@@ -105,8 +105,7 @@
 					</section>
 					<section class="col-1-4">
 						<div class="wrap-col">
-							<h2 class="auto-style1">Inspiration</h2>
-                            <p class="auto-style1">&nbsp;</p>
+							<h2 class="under" style="margin-top:25px;">Inspiration</h2>
 							<div class="testimonials">
 							<div id="testimonials">
 							  <ul>
