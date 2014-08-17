@@ -11,10 +11,6 @@
 	            maxwidth: 960,
 	            namespace: "centered-btns"
 	        });
-	        $("#nav1").addClass('active');
-	        $("#nav4").removeClass('active');
-	        $("#nav3").removeClass('active');
-	        $("#nav5").removeClass('active');
 	    });
 	    $(document).ready(function () {
 	        $('#menu li').removeClass('active');
