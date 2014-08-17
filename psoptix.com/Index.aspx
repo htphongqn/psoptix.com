@@ -43,8 +43,8 @@
 					<div class="slider">
 					  	<div class="rslides_container">
 							<ul class="rslides" id="slider">
-								<li><img src="images/information_technology2.jpg" alt=""></li>
 								<li><img src="images/shutterstock_122435878.jpg" alt=""></li>
+								<li><img src="images/information_technology2.jpg" alt=""></li>
 								<li><img src="images/slide-52.jpg" alt=""></li>
 							</ul>
 						</div>
