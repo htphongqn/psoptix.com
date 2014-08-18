@@ -97,15 +97,15 @@
 							<div>
 								<div class="wrapper">
 									<asp:TextBox ID="txtNewsLetter" runat="server" class="input" type="text" placeholder="Type Your Email Here"></asp:TextBox>
-                                    <asp:RequiredFieldValidator ID="rfvNewsLetter" runat="server" ErrorMessage="Required field!" ControlToValidate="txtNewsLetter" Display="None"></asp:RequiredFieldValidator>
+                                    <asp:RequiredFieldValidator ID="rfvNewsLetter" runat="server" ErrorMessage="Required field!" ControlToValidate="txtNewsLetter" Display="None" ValidationGroup="grnewsletter"></asp:RequiredFieldValidator>
                                     <asp:validatorcalloutextender ID="rfvNewsLetterExt" runat="server" TargetControlID="rfvNewsLetter">
                                     </asp:validatorcalloutextender>
 
-                                    <asp:RegularExpressionValidator ID="revNewsLetter" runat="server" ErrorMessage="Please enter email!"  ControlToValidate="txtNewsLetter" Display="None" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                                    <asp:RegularExpressionValidator ID="revNewsLetter" runat="server" ErrorMessage="Please enter email!"  ControlToValidate="txtNewsLetter" Display="None" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"  ValidationGroup="grnewsletter"></asp:RegularExpressionValidator>
                                     <asp:validatorcalloutextender ID="revNewsLetterExt" runat="server" TargetControlID="revNewsLetter">
                                     </asp:validatorcalloutextender>
 								</div>
-								<asp:LinkButton ID="lkNewsLetter" runat="server" class="button" OnClick="lkNewsLetter_Click" >Subscribe</asp:LinkButton>
+								<asp:LinkButton ID="lkNewsLetter" runat="server" class="button" OnClick="lkNewsLetter_Click"  ValidationGroup="grnewsletter">Subscribe</asp:LinkButton>
 							</div>
 						</div>
 					</div>

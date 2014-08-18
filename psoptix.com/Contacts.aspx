@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="Contacts" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contacts.aspx.cs" Inherits="psoptix.com.Contacts" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">    
     <script>
         $(document).ready(function () {
@@ -20,22 +21,38 @@
 						<div>
 							<div  class="wrapper">
 								<span>Your Name:</span>
-								<input type="text" class="input" >
+								<asp:TextBox ID="txtName" runat="server" type="text" class="input" ></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="rfvName" runat="server" ErrorMessage="Required field!" ControlToValidate="txtName" Display="None" ValidationGroup="grcontact"></asp:RequiredFieldValidator>
+                                <asp:validatorcalloutextender ID="rfvNameExt" runat="server" TargetControlID="rfvName">
+                                </asp:validatorcalloutextender>
 							</div>
 							<div  class="wrapper">
 								<span>Your City:</span>
-								<input type="text" class="input" >
+								<asp:TextBox ID="txtCity" runat="server" type="text" class="input" ></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="rfvCity" runat="server" ErrorMessage="Required field!" ControlToValidate="txtCity" Display="None" ValidationGroup="grcontact"></asp:RequiredFieldValidator>
+                                <asp:validatorcalloutextender ID="rfvCityExt" runat="server" TargetControlID="rfvCity">
+                                </asp:validatorcalloutextender>
 							</div>
 							<div  class="wrapper">
 								<span>Your E-mail:</span>
-								<input type="text" class="input" >
+								<asp:TextBox ID="txtEmail" runat="server" type="text" class="input" ></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ErrorMessage="Required field!" ControlToValidate="txtEmail" Display="None" ValidationGroup="grcontact"></asp:RequiredFieldValidator>
+                                <asp:validatorcalloutextender ID="rfvEmailExt" runat="server" TargetControlID="rfvEmail">
+                                </asp:validatorcalloutextender>
+
+                                <asp:RegularExpressionValidator ID="revEmail" runat="server" ErrorMessage="Please enter email!"  ControlToValidate="txtEmail" Display="None" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"  ValidationGroup="grcontact"></asp:RegularExpressionValidator>
+                                <asp:validatorcalloutextender ID="revEmailExt" runat="server" TargetControlID="revEmail">
+                                </asp:validatorcalloutextender>
 							</div>
 							<div  class="textarea_box">
 								<span>Your Message:</span>
-								<textarea name="textarea" cols="1" rows="1"></textarea>
+								<asp:TextBox ID="txtMessage" runat="server" name="textarea" TextMode="MultiLine"></asp:TextBox>
+                                <asp:RequiredFieldValidator ID="rfvMessage" runat="server" ErrorMessage="Required field!" ControlToValidate="txtMessage" Display="None" ValidationGroup="grcontact"></asp:RequiredFieldValidator>
+                                <asp:validatorcalloutextender ID="rfvMessageExt" runat="server" TargetControlID="rfvMessage">
+                                </asp:validatorcalloutextender>
 							</div>
-							<a href="#" onClick="document.getElementById('ContactForm').submit()">Send</a>
-							<a href="#" onClick="document.getElementById('ContactForm').reset()">Clear</a>
+							<asp:LinkButton ID="lkSend" runat="server" OnClick="lkSend_Click" ValidationGroup="grcontact">Send</asp:LinkButton>
+							<asp:LinkButton ID="lkClear" runat="server" OnClick="lkClear_Click">Clear</asp:LinkButton>
 						</div>
 						</div>
 					</div>
