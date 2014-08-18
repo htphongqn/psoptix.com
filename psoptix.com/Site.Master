@@ -1,5 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="psoptix.com.Site" %>
 
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -31,6 +33,7 @@
 </head>
 <body>
     <form id="frmMain" runat="server">
+        <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server"></asp:ToolkitScriptManager>
     <div class="body1">
 		<div class="main zerogrid">
 <!-- header -->
@@ -93,9 +96,16 @@
 						<div id="newsletter">
 							<div>
 								<div class="wrapper">
-									<input class="input" type="text" value="Type Your Email Here"  onblur="if(this.value=='') this.value='Type Your Email Here'" onfocus="if(this.value =='Type Your Email Here' ) this.value=''" >
+									<asp:TextBox ID="txtNewsLetter" runat="server" class="input" type="text" placeholder="Type Your Email Here"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvNewsLetter" runat="server" ErrorMessage="Required field!" ControlToValidate="txtNewsLetter" Display="None"></asp:RequiredFieldValidator>
+                                    <asp:validatorcalloutextender ID="rfvNewsLetterExt" runat="server" TargetControlID="rfvNewsLetter">
+                                    </asp:validatorcalloutextender>
+
+                                    <asp:RegularExpressionValidator ID="revNewsLetter" runat="server" ErrorMessage="Please enter email!"  ControlToValidate="txtNewsLetter" Display="None" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                                    <asp:validatorcalloutextender ID="revNewsLetterExt" runat="server" TargetControlID="revNewsLetter">
+                                    </asp:validatorcalloutextender>
 								</div>
-								<a href="#" class="button" onclick="document.getElementById('newsletter').submit()">Subscribe</a>
+								<asp:LinkButton ID="lkNewsLetter" runat="server" class="button" OnClick="lkNewsLetter_Click" >Subscribe</asp:LinkButton>
 							</div>
 						</div>
 					</div>
