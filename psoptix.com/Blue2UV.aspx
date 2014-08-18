@@ -9,7 +9,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentMain" runat="server">
     <div class="body3">
-        <div class="main zerogrid">
+        <div class="main zerogrid productindex" style="margin-top:20px;margin-bottom:20px">
             <div style="text-align:center;padding-top:15px" align="center">
                 <img src="images/Blue2UV2.png" />
             </div>

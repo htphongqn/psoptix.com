@@ -65,22 +65,21 @@
 				<div class="wrapper row">
 					<section class="col-1-3 productindex">
 						<div class="wrap-col">
-							<h3><span class="dropcap">P</span><span class="text">PALeyeD</span></h3>
+							<h3><a href="PALEyeD.aspx"><span class="dropcap">P</span><span class="text">PALeyeD</span></a></h3>
 							<p class="pad_bot1">PAL Symbol recognition and search</p>
 							<a href="PALEyeD.aspx" class="link1">Read More</a>
 						</div>
 					</section>
-					<section class="col-1-3 productindex">
-                        <a href="Blue2UV.aspx">
+					<section class="col-1-3 productindex">                        
 						<div class="wrap-col">
-							<h3><span class="dropcap">B</span><span class="text">Blue2UV</span></h3>
+							<h3><a href="Blue2UV.aspx"><span class="dropcap">B</span><span class="text">Blue2UV</span></a></h3>
 							<p class="pad_bot1">Blue Light and UV sensors ...</p>
 							<a href="Blue2UV.aspx" class="link1">Read More</a>
-						</div></a>
+						</div>
 					</section>
 					<section class="col-1-3 productindex">
 						<div class="wrap-col">
-							<h3><span class="dropcap">O</span><span class="text">OpticalEyeCoach</span></h3>
+							<h3><a href="OpticalCoatch.aspx"><span class="dropcap">O</span><span class="text">OpticalEyeCoach</span></a></h3>
 							<p class="pad_bot1"> Optician Tools Kit, Everthings ...</p>
 							<a href="OpticalCoatch.aspx" class="link1">Read More</a></div>
 					</section>
