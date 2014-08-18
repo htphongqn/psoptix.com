@@ -269,11 +269,11 @@ public class ToSQL
      * convert date to string
      * @see SQLDateNonHour()
      */
-    public static string SQLDateNonHour(DateTime Obj)
+    public static string SQLDateNonHour(object Ob)
     {
-        if (IsDate(Obj))
+        if (IsDate(Ob))
         {
-            Obj = Convert.ToDateTime(Obj);
+            DateTime Obj = Convert.ToDateTime(Ob);
             return " '" + Obj.Year.ToString() + "/" + Obj.Month.ToString() + "/" + Obj.Day.ToString() + "' ";
         }
         return " NULL ";
