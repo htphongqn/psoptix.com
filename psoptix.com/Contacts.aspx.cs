@@ -31,8 +31,13 @@ namespace psoptix.com
             int i = _db.ExecuteInt(sql);
             try
             {
-                System.Net.Mail.SmtpClient smtp = new SmtpClient("smtpout.secureserver.net", 25);
-                
+                System.Net.Mail.SmtpClient smtp = new SmtpClient()
+                {
+                    Host = "smtpout.secureserver.net",
+                    Port = 465,
+                    EnableSsl = ("TLS" != ""),
+                    UseDefaultCredentials = true
+                };
                 smtp.Send(new MailMessage(txtEmail.Text, "Info@perfectsqs.com", txtName.Text + " - " + txtCity.Text, txtMessage.Text));
             }
             catch { }
