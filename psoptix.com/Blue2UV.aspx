@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Blue2UV.aspx.cs" Inherits="psoptix.com.Blue2UV" %>
+﻿<%@ Page Title="Blue2UV" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Blue2UV.aspx.cs" Inherits="psoptix.com.Blue2UV" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script>
         $(document).ready(function () {
@@ -6,6 +6,18 @@
             $('#menu #nav4').addClass('active');
         });
 	</script>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            font-size: xx-large;
+        }
+        .auto-style3 {
+            text-align: center;
+            font-size: xx-large;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentMain" runat="server">
     <div class="body3">
@@ -14,7 +26,7 @@
                 <img src="images/Blue2UV2.png" />
             </div>
             <h2 class="under">
-                Background on blue light & UV
+                <span class="auto-style2">Background on blue light & UV</span>
             </h2>
             <article>
                 <ul class="list">
@@ -29,7 +41,7 @@
                     <li>Age reduces macular pigments (50% by 60 years) and these lights are a big risk factor for AMD.</li>
                 </ul>
             </article>
-            <h2 class="under">
+            <h2 class="under" style="font-size: xx-large">
                 Seeing is believing
             </h2>
             <article>
@@ -40,16 +52,16 @@
                     <li>But does it really and at what level?</li>
                 </ul>
             </article>
-            <h2 class="under">Introducing</h2>
+            <h2 class="under" style="font-size: xx-large">Introducing</h2>
             <article>
                 <ul class="list">
                     <li>Blue and UV light meter. Demonstrating blue light & UV transmittance</li>
                 </ul>
                 <div style="text-align:center" align="center">
-                    <img src="images/Blue2UV.jpg" />
+                    <img src="images/Blue2UV.jpg" width="940" />
                 </div>
             </article>
-            <h2 class="under">
+            <h2 class="under" style="font-size: xx-large">
                 Key Features
             </h2>
             <article>
@@ -62,7 +74,7 @@
                     <li>BLE and Bluetooth data transmission for interface with Apple and Android devices.</li>
                 </ul>
             </article>
-            <h2 class="under">
+            <h2 class="under" style="font-size: xx-large">
                 Sensor 1 - Special UV sensor
             </h2>
             <article>
@@ -73,17 +85,17 @@
                     <li>UVC is not a concern in offices or homes.</li>
                 </ul>
             </article>
-            <h2 class="under">
+            <h2 class="under" style="font-size: xx-large">
                 Sensor 2 - Wideband with applied filter
             </h2>
             <article>
-                <img src="images/Sensor2.png" />
+                <img src="images/Sensor2.png" width="481" height="300"/>
                 <ul class="list">
                     <li>The second sensor is a photodiode with a violet filter applied to see the 415 -455nm  light.</li>
                 </ul>
-                <img src="images/Sensor2-1.png" />
+                <img src="images/Sensor2-1.png" width="481" height="300" />
             </article>
-            <h2 class="under">
+            <h2 class="under" style="font-size: xx-large">
                 Calibration
             </h2>
             <article>
@@ -92,18 +104,18 @@
                     <li>Calibration is referenced to NIST traceable UV and Light level meters.</li>
                     <li>365nm and 420 nm sources and filters generate the references.</li>
                 </ul>
-                <img src="images/Calibration.png" />
+                <img src="images/Calibration.png" width="481"/>
             </article>
             <h2 class="under">
-                Demo Photos
+                <span class="auto-style2">Demo Photos</span>
             </h2>
-            <article><div style="text-align:center">
-                <img src="images/Blue2UV-1.png" height="100" /></div>
-                <h3>IPAD UI</h3>
-                <div align="center" style="padding-bottom:25px">
-                <img src="images/Blue2UV-3.png" />
-                <img src="images/Blue2UV-2.png" /></div>
-            </article>
+            <img src="images/Blue2UV-1.png" width="940" />
+            <h2 class="under">IPAD App</h2>
+            <div style="padding-bottom:15px">
+                <img src="images/Blue2UV-3.png" width="940"/>
+                <br />
+                <img src="images/Blue2UV-2.png" width="940" />
+            </div>
         </div>
     </div>
 </asp:Content>

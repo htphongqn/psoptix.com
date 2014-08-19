@@ -8,9 +8,12 @@
 				<div class="wrapper row">
 					<section class="col-full">
 					<div class="wrap-col">
-						<h2 class="under">PALeyeD</h2>
+						<h2 class="under">
+                <img src="images/PALeyeD.jpg" /></h2>
 						<div id="AboutUS">
                             <span style="color:red">Updating...</span> 
+                            <br />
+                            <br />
                         </div>
 					</div>
 					</section>

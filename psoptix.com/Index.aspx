@@ -19,9 +19,6 @@
 	</script>
 	
     <style type="text/css">
-        .auto-style1 {
-            font-size: xx-large;
-        }
         .auto-style2 {
             text-align: justify;
         }
@@ -31,10 +28,10 @@
         }
         .auto-style4 {
             font-style: normal;
-            color: #0000FF;
+            color: #333333;
         }
-        .auto-style5 {
-            color: #0000FF;
+        .auto-style6 {
+            color: #333333;
         }
     </style>
 </asp:Content>
@@ -66,7 +63,7 @@
 					<section class="col-1-3 productindex">
 						<div class="wrap-col">
 							<h3><a href="PALEyeD.aspx"><span class="dropcap">P</span><span class="text">PALeyeD</span></a></h3>
-							<p class="pad_bot1">PAL Symbol recognition and search</p>
+							<p class="pad_bot1">PAL Symbol recognition and search ...</p>
 							<a href="PALEyeD.aspx" class="link1">Read More</a>
 						</div>
 					</section>
@@ -81,7 +78,7 @@
 						<div class="wrap-col">
 							<h3><a href="OpticalCoatch.aspx"><span class="dropcap">O</span><span class="text">OpticalEyeCoach</span></a></h3>
 							<p class="pad_bot1"> Optician Tools Kit, Everthings ...</p>
-							<a href="OpticalCoatch.aspx" class="link1">Read More</a></div>
+							<a href="OpticalCoatch.aspx" class="link1">Coming soon ...</a></div>
 					</section>
 				</div>
 				<div class="wrapper row">
@@ -94,7 +91,7 @@
 								<p class="auto-style2">
 										Our goal is to enhance, and make life more efficient. With that goal in mind we continuously working on and try to discover new solutions from ther simple and to complex problem that we face as a society.</p>
                                 <p class="auto-style2">
-										&quot;Innovation in products and business models is more important than ever for businesses to stay relevant. We concentrate on delivering innovative products and services while you concentrate on your business&quot;&nbsp; <span class="auto-style5"><strong>Sameer Cholayil</strong></span> -<span class="auto-style4"> Perfect Squares VP Of Engineering</span></p>
+										&quot;Innovation in products and business models is more important than ever for businesses to stay relevant. We concentrate on delivering innovative products and services while you concentrate on your business&quot;&nbsp; <span class="auto-style6"><strong>Sameer Cholayil</strong> -</span><span class="auto-style4"> Perfect Squares VP Of Engineering</span></p>
 							</div>
 						</div>
 					</section>
