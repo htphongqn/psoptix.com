@@ -48,6 +48,7 @@
 								<li><img src="images/Banner1.png" alt=""></li>
 								<li><img src="images/Banner2.png" alt=""></li>
                                 <li><img src="images/Blue2UV_banner.jpg" alt=""></li>
+                                <li><img src="images/Pal2-3.png" alt=""></li>
 							</ul>
 						</div>
 					</div>
