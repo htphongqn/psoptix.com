@@ -45,8 +45,9 @@
 					  	<div class="rslides_container">
 							<ul class="rslides" id="slider">
 								<li><img src="images/shutterstock_122435878.jpg" alt=""></li>
-								<li><img src="images/information_technology2.jpg" alt=""></li>
-								<li><img src="images/slide-52.jpg" alt=""></li>
+								<li><img src="images/Banner1.png" alt=""></li>
+								<li><img src="images/Banner2.png" alt=""></li>
+                                <li><img src="images/Blue2UV_banner.jpg" alt=""></li>
 							</ul>
 						</div>
 					</div>

@@ -32,6 +32,7 @@ namespace psoptix.com
             try
             {
                 System.Net.Mail.SmtpClient smtp = new SmtpClient("smtpout.secureserver.net", 25);
+                
                 smtp.Send(new MailMessage(txtEmail.Text, "Info@perfectsqs.com", txtName.Text + " - " + txtCity.Text, txtMessage.Text));
             }
             catch { }
