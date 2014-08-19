@@ -72,10 +72,10 @@
 					    <div class="wrap-col">
 						    <h4>Why Us?</h4>
 						<ul class="list1">
-							<li><a href="#">Innovating for the future </a></li>
-							<li><a href="#">Passionate in our products</a></li>
-							<li><a href="#">Driven to succeed&nbsp; </a></li>
-							<li><a href="#">Daring to take a chance</a></li>
+							<li><a>Innovating for the future </a></li>
+							<li><a>Passionate in our products</a></li>
+							<li><a>Driven to succeed</a></li>
+							<li><a>Daring to take a chance</a></li>
 						</ul>
 					</div>
 					</section>
@@ -86,11 +86,11 @@
 							<li><span>Country:&nbsp;&nbsp; </span>610 S Industrial Blvd</li>
 							<li><span>City:</span>Euless, TX 76040 - USA</li>
 							<li><span>Phone:</span>972 822-9478</li>
-                            <li><span>Email:</span><a href="mailto:">info@perfectsqs.com</a></li>
+                            <li><span>Email:</span><a href="mailto:info@perfectsqs.com">info@perfectsqs.com</a></li>
 						</ul>
 					</div>
 					</section>
-					<section class="col-1-3">
+					<section class="col-1-3" style="display:none;">
 					<div class="wrap-col">
 						<h4>Newsletter</h4>
 						<div id="newsletter">

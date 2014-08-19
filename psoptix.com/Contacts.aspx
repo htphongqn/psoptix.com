@@ -57,21 +57,6 @@
 						</div>
 					</div>
 					</section>
-					<section class="col-1-4">
-					<div class="wrap-col">
-						<%--<h2 class="under">Contacts</h2>
-						<div id="address"><span>Country:<br>
-								City:<br>
-								Telephone:<br>
-								Email:</span>
-								610 S Industrial Blvd<br>
-								Euless, TX 76040 - USA<br>
-								972 822-9478<br>
-								<a href="mailto:info@perfectsqs.com" class="color2">info@perfectsqs.com</a></div>--%>
-						<h2 class="under">Miscellaneous</h2>
-						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium volupta- tum deleniti atque corrupti quos dolores et quas molestias excep- turi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.</p>
-					</div>
-					</section>
 				</div>
 
 			</article>

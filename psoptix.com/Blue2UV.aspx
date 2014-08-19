@@ -58,7 +58,7 @@
                     <li>Blue and UV light meter. Demonstrating blue light & UV transmittance</li>
                 </ul>
                 <div style="text-align:center" align="center">
-                    <img src="images/Blue2UV.jpg" width="940" />
+                    <img src="images/Blue2UV_banner.jpg" width="940" />
                 </div>
             </article>
             <h2 class="under" style="font-size: xx-large">
