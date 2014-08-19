@@ -29,8 +29,12 @@ namespace psoptix.com
         {
             string sql = "Insert into Contact(FullName, City, Email, Comment) values('" + txtName.Text + "','" + txtCity.Text + "','" + txtEmail.Text + "','" + txtMessage.Text + "')";
             int i = _db.ExecuteInt(sql);
-            System.Net.Mail.SmtpClient smtp = new SmtpClient("smtpout.secureserver.net", 25);
-            smtp.Send(new MailMessage(txtEmail.Text, "Info@perfectsqs.com", txtName.Text + " - " + txtCity.Text, txtMessage.Text));
+            try
+            {
+                System.Net.Mail.SmtpClient smtp = new SmtpClient("smtpout.secureserver.net", 25);
+                smtp.Send(new MailMessage(txtEmail.Text, "Info@perfectsqs.com", txtName.Text + " - " + txtCity.Text, txtMessage.Text));
+            }
+            catch { }
             //if (i != -1)
             //{
                 //Response.Redirect("Contacts.aspx");
