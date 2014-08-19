@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Net;
+using System.Net.Mail;
 
 namespace psoptix.com
 {
@@ -27,6 +29,8 @@ namespace psoptix.com
         {
             string sql = "Insert into Contact(FullName, City, Email, Comment) values('" + txtName.Text + "','" + txtCity.Text + "','" + txtEmail.Text + "','" + txtMessage.Text + "')";
             int i = _db.ExecuteInt(sql);
+            System.Net.Mail.SmtpClient smtp = new SmtpClient("smtpout.secureserver.net", 25);
+            smtp.Send(new MailMessage(txtEmail.Text, "Info@perfectsqs.com", txtName.Text + " - " + txtCity.Text, txtMessage.Text));
             //if (i != -1)
             //{
                 //Response.Redirect("Contacts.aspx");
