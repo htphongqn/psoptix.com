@@ -16,7 +16,7 @@
 					<div class="wrap-col">
 						<div class="wrapper pad_bot2">
 							<h3><a href="PALEyeD.aspx"><span class="dropcap">P</span><span class="text">PALeyeD</span></a>&nbsp;&nbsp;&nbsp; </h3>
-							<figure><a href="PALEyeD.aspx"><img src="images/Pal2-2.png" alt="" style="float:left; width: 200px;" /></a></figure>
+							<figure><a href="PALEyeD.aspx"><img src="images/Pal2-2.png" alt="" style="float:left; width: 200px; height: 258px;" /></a></figure>
 							<ul>
                                 <li>
                                     <p class="pad_bot1" style="float:left;padding-left:15px; width: 635px;">
@@ -24,7 +24,7 @@
                                 </li>
                                 <li>
                                     <p class="pad_bot1" style="float:left;padding-left:15px; width: 635px;">
-                                        - Pattern/Symbol detect software</p>
+                                        - Computer vision software</p>
                                 </li>
                                 <li>
                                     <p class="pad_bot1" style="float:left;padding-left:15px; width: 635px;">
@@ -42,13 +42,14 @@
 					<div class="wrap-col">
 						<div class="wrapper pad_bot2">
 							<h3><a href="Blue2UV.aspx"><span class="dropcap">B</span><span class="text">Blue2UV</span></a></h3>
-							<figure><a href="Blue2UV.aspx"><img src="images/blue_uv.jpg" alt="" style="float:left; width: 210px;" /></a></figure>
+							<figure><a href="Blue2UV.aspx"><img src="images/blue_uv.jpg" alt="" style="float:left; width: 210px; height: 204px;" /></a></figure>
 							<p class="pad_bot1" style="float:left;padding-left:15px; width: 613px;"><strong>Key Features:</strong></p>
                             <p class="pad_bot1" style="float:left;padding-left:15px; width: 613px;">- 2 AAA powered with Low power auto sleep - Long battery life</p>
                             <p class="pad_bot1" style="float:left;padding-left:15px; width: 613px;">- 7 Light level LED&quot;s for Blue light (blue color) level indication in standalone mode</p>
                             <p class="pad_bot1" style="float:left;padding-left:15px; width: 613px;">- 7 Light level LED&#39;s for UV (violet color) level indication in standalone mode</p>
                             <p class="pad_bot1" style="float:left;padding-left:15px; width: 613px;">- BLE and Bluetooth data transmission for interface with Apple and Android devices</p>
                             <p class="pad_bot1" style="float:left;padding-left:15px; width: 613px;">- Special UV sensor only sees light in the UVA-UVB region.</p>
+                            <p class="pad_bot1" style="float:left;padding-left:15px; width: 613px;">- Dual sensors design.</p>
 							<%--<div style="text-align:right;clear:both"><a href="Blue2UV.aspx" class="link1">Read More</a></div>--%>
 						</div>
 					</div>

@@ -34,8 +34,7 @@
             height: 9px;
         }
         .auto-style8 {
-            width: 109px;
-            height: 22px;
+            width: 98px;
             font-weight: normal;
             font-style: normal;
             text-decoration: underline;
@@ -59,7 +58,7 @@
             text-align: justify;
         }
         .auto-style12 {
-            width: 109px;
+            width: 98px;
             font-weight: normal;
         }
         .auto-style13 {
@@ -89,7 +88,7 @@
             text-align: justify;
         }
         .auto-style17 {
-            width: 109px;
+            width: 98px;
             font-weight: normal;
             height: 49px;
         }
@@ -102,6 +101,34 @@
         }
         .auto-style19 {
             height: 49px;
+        }
+        .auto-style20 {
+            width: 5px;
+            font-weight: normal;
+            height: 49px;
+        }
+        .auto-style21 {
+            width: 5px;
+            font-weight: normal;
+        }
+        .auto-style22 {
+            width: 5px;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: underline;
+            color: #333333;
+        }
+        .auto-style23 {
+            width: 80px;
+            height: 80px;
+        }
+        .auto-style24 {
+            width: 79px;
+            height: 80px;
+        }
+        .auto-style25 {
+            width: 80px;
+            height: 80px;
         }
     </style>
 </asp:Content>
@@ -139,11 +166,17 @@
                             <table class="auto-style1">
                                 <tr>
                                     <td class="auto-style17"><span class="auto-style10"></td>
+                                    <td class="auto-style20">&nbsp;</td>
                                     <td class="auto-style18"><em>Why Perfect Squares? They say a square peg cannot fit into a round hole; we pride ourselves on being on the edge, individualist with ideas that can make an impact.</em></td>
                                     <td class="auto-style19"></span></td>
                                 </tr>
                                 <tr>
                                     <td class="auto-style12">&nbsp;</td>
+                                    <td class="auto-style21">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
                                     <td class="auto-style11">&nbsp;</td>
                                     <td>&nbsp;</td>
                                 </tr>
@@ -153,11 +186,25 @@
                                             <li></li>
                                         </ul>
                                     </td>
+                                    <td class="auto-style22">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
                                     <td class="auto-style9"><strong>Perfect Squares US Office</strong></td>
                                     <td class="auto-style13"></td>
                                 </tr>
                                 <tr>
-                                    <td class="auto-style8">
+                                    <td class="auto-style8" rowspan="2">
+                                        <ul>
+                                            <li>
+                                                <img class="auto-style23" src="images/Hoa.jpg" /></li>
+                                        </ul>
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                    <td class="auto-style22">
                                         <ul>
                                             <li></li>
                                         </ul>
@@ -166,7 +213,7 @@
                                     <td class="auto-style13"></td>
                                 </tr>
                                 <tr>
-                                    <td class="auto-style8">
+                                    <td class="auto-style22">
                                         <ul>
                                             <li></li>
                                         </ul>
@@ -180,11 +227,25 @@
                                             <li></li>
                                         </ul>
                                     </td>
+                                    <td class="auto-style22">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
                                     <td class="auto-style15">&nbsp;</td>
                                     <td class="auto-style13">&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="auto-style8">
+                                    <td class="auto-style8" rowspan="2">
+                                        <ul>
+                                            <li>
+                                                <img class="auto-style24" src="images/Sameer.jpg" /></li>
+                                        </ul>
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                    <td class="auto-style22" rowspan="2">
                                         <ul>
                                             <li></li>
                                         </ul>
@@ -193,16 +254,16 @@
                                     <td class="auto-style13"></td>
                                 </tr>
                                 <tr>
-                                    <td class="auto-style8">
-                                        <ul>
-                                            <li></li>
-                                        </ul>
-                                    </td>
                                     <td class="auto-style15">Mr. Cholayil has worked on projects for the US naval research lab, stared an engineering division in India and released 15 fiber optic and cooper firmware. In addition Sameer has developed several apps for his app store and filed several patents for power sources, measurements, vision and facial characteristics </td>
                                     <td class="auto-style13">&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td class="auto-style8">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                    <td class="auto-style22">
                                         <ul>
                                             <li></li>
                                         </ul>
@@ -216,11 +277,21 @@
                                             <li></li>
                                         </ul>
                                     </td>
+                                    <td class="auto-style22">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
                                     <td class="auto-style15">• <strong>Brian Doan</strong> – Director of Product Development, Co-Founder</td>
                                     <td class="auto-style13">&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td class="auto-style8">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                    <td class="auto-style22">
                                         <ul>
                                             <li></li>
                                         </ul>
@@ -234,11 +305,21 @@
                                             <li></li>
                                         </ul>
                                     </td>
+                                    <td class="auto-style22">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
                                     <td class="auto-style15">&nbsp;</td>
                                     <td class="auto-style13">&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td class="auto-style8">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                    <td class="auto-style22">
                                         <ul>
                                             <li></li>
                                         </ul>
@@ -252,11 +333,21 @@
                                             <li></li>
                                         </ul>
                                     </td>
+                                    <td class="auto-style22">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
                                     <td class="auto-style15">Ms. Madison is a practicing optician, &amp; business manger for her family’s optometric practice. With over 50 staff members and managing a 7M practice Madison has experience with the laboratory, managed care, and private practice. Madison is ABO certified and has an MBA, with a focus on global management.</td>
                                     <td class="auto-style13">&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td class="auto-style8">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                    <td class="auto-style22">
                                         <ul>
                                             <li></li>
                                         </ul>
@@ -274,11 +365,25 @@
                                             <li></li>
                                         </ul>
                                     </td>
+                                    <td class="auto-style22">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
                                     <td class="auto-style16"><strong>Perfect Squares INDIA Office</strong></td>
                                     <td class="auto-style13">&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="auto-style8">
+                                    <td class="auto-style8" rowspan="2">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <img class="auto-style25" src="images/vinod.jpg" /></li>
+                                        </ul>
+                                    </td>
+                                    <td class="auto-style22">
                                         <ul>
                                             <li></li>
                                         </ul>
@@ -287,16 +392,22 @@
                                     <td class="auto-style13">&nbsp;</td>
                                 </tr>
                                 <tr>
+                                    <td class="auto-style22">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                    <td class="auto-style15">Mr. Patnaik has more than a decade long experience of building technology intensive products in various domains. He has strong project execution skills with extensive experience in working with global teams. He spent significant of his career develop enterprises system, embedded systems and focus on new technology products. Mr. Patnaik in his current role at Perfect Squares is on the mission of expanding passionate engineering team in India and working on building next innovative products.<br />
+                                        Mr. Patnaik holded Professional and executive positions&nbsp; for Hexaware Technology, Textron, MINT prior to Co-Founding Perfect Squares.</td>
+                                    <td class="auto-style13">&nbsp;</td>
+                                </tr>
+                                <tr>
                                     <td class="auto-style8">
                                         <ul>
                                             <li></li>
                                         </ul>
                                     </td>
-                                    <td class="auto-style15">&nbsp;</td>
-                                    <td class="auto-style13">&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td class="auto-style8">
+                                    <td class="auto-style22">
                                         <ul>
                                             <li></li>
                                         </ul>
@@ -310,11 +421,21 @@
                                             <li></li>
                                         </ul>
                                     </td>
+                                    <td class="auto-style22">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
                                     <td class="auto-style15">• <strong>Sharath Madhurnath</strong> – Director of Software Engineering, Co-Founder</td>
                                     <td class="auto-style13">&nbsp;</td>
                                 </tr>
                                 <tr>
                                     <td class="auto-style8">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                    <td class="auto-style22">
                                         <ul>
                                             <li></li>
                                         </ul>

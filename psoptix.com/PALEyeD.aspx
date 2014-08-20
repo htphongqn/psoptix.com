@@ -38,11 +38,11 @@
                 <article>
                     <h3>The PS PALeyeD uses a combination of:</h3>
                     <ul class="list">
-                        <li>Pattern/Symbol detect software.
+                        <li>Computer vision software for matching lens data.
                         </li>
                         <li>Microscopic camera.
                         </li>
-                        <li>Special design Pattern and lighting system to match the pattern and display results to technician. Printing label option also provide.
+                        <li>Special design Pattern and lighting system.
                         </li>
                         <li>Easy to use.
                         </li>
