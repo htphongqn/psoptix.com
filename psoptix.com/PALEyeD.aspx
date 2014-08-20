@@ -4,9 +4,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentMain" runat="server">
     <div class="body3">
-        <div class="main zerogrid productindex" style="margin-top: 20px; margin-bottom: 20px">
-            <div class="wrap-col">
-                <div style="text-align: center;">
+        <div class="main zerogrid productindex" style="margin-top: 20px;margin-bottom:20px; padding-bottom: 20px">
+                <div style="text-align: center;padding-top:15px" align="center"">
                     <img src="images/PALeyeD.jpg" />
                 </div>
                 <h2 class="under">PALeyeD
@@ -36,7 +35,7 @@
                 <h2 class="under">PALeyeD Technology
                 </h2>
                 <article>
-                    <h3>The PS PALeyeD uses a combination of:</h3>
+                    <h3 style="padding-left:10px">The PS PALeyeD uses a combination of:</h3>
                     <ul class="list">
                         <li>Computer vision software for matching lens data.
                         </li>
@@ -57,11 +56,12 @@
                 <article>
                     <h2 class="under">Photos</h2>
                     <div style="text-align:center;">
-                        <img src="images/Pal1-1.png" />
-                        <img src="images/Pal2-22.png" />
+                        <img src="images/Pal1-1.png" width="624" />
+                    </div>
+                    <div style="text-align:center;margin-top:10px">
+                        <img src="images/Pal2-22.png" width="624" />
                     </div>
                 </article>
             </div>
         </div>
-    </div>
 </asp:Content>
